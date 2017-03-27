@@ -1,3 +1,49 @@
-#welcome {
-  color: darkslategray;
+#formDialog, #removeInput{
+  padding: 15px 15px 15px 0px;
+}
+
+.modal-content{
+  padding: 20px;
+}
+
+.hidden{
+  display: none;
+}
+
+input[required]:invalid { box-shadow: 0 0 3px 1px red }
+
+#tableData{
+  z-index:-1;
+}
+
+#msg {
+  position: relative;
+  border: 1px solid rgb(223,225,224);
+  top: 10px;
+  margin: auto;
+  width: 500px;
+  height: 60px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: white;
+  color: rgb(143,157,168);
+  font-size: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index:1;
+}
+
+#close {
+  cursor: pointer;
+}
+
+#noti {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+#notiSpan a {
+    color: rgb(143,157,168);
+}
+#sortbtn {
+  margin-left: 20px;
 }
